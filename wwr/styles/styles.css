@@ -7,7 +7,7 @@ body {
         background-color: burlywood;
     }
 
-    #map {
+    #map, header {
         text-align: center;
         background-color: rgba(213, 219, 45, 0.628);
         height: 40px;
