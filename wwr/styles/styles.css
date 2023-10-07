@@ -1,70 +1,60 @@
 body {
-    background-color: #FB94CE;
-    }
-
-    #content {
-        max-width: 1600px;
-        margin: 0 auto;
-    }
-
-    nav, a, #hero-msg, h4, .botton-tex, main, section {
-        text-align: center;
-    }
-
-    .background { 
-        height: 725px;
-    }
-
-    header, footer {
-        background-color: #c24e82;
-    }
-
-    nav, a:hover {
-       background-color: #FB94CE;
-    }
-
-    .book, .join {
-        background-color: #E7D9F9;
-    }
-
-    .book:hover, .join:hover {
-        background-color: #C17FE2;
-    }
+    background-color: rgb(74, 43, 82);
+}
 
     #background {
         height: 725px;
-        background-color: #583f2d;
+        background-color: burlywood;
     }
 
-    .msg {
-        background-color: #C17FE2;
-    }
-
-    nav, a {
-        background-color: #c65269;
+    #map {
+        text-align: center;
+        background-color: rgba(213, 219, 45, 0.628);
+        height: 40px;
+        font-size: 1.5em;
     }
 
     #hero-img {
         width: 100%;
     }
 
-    nav, a {
+    .home-title {
         text-align: center;
-        color: rgb(105, 0, 75);
-        text-decoration: none;
+        color: chartreuse;
+        font-size: 2.5em;
     }
 
-    .book, .join {
+    .button-box, .join {
         text-align: center;
-        color: rgb(205, 0, 228);
-        text-decoration: none;
+        background-color: rgba(17, 67, 85, 0.66);
+        width: 200px;
+        margin: auto;
+        font-size: 1.5em;
     }
 
-    footer, a {
+    .river-card, .camping-card, .rapids-card {
         text-align: center;
-        color: rgb(195, 168, 32);
-        text-decoration: underline;
+        color: rgb(221, 200, 66);
+        font-size: 1.5em;
     }
 
+    .icon {
+        width: 80px;
+    }
 
+    .mountain {
+        width: 50%;
+    }
 
+    .msg {
+        text-align: center;
+        background-color: rgba(0, 143, 185, 0.806);
+        color: rgb(58, 19, 75);
+        font-size: 2em;
+    }
+
+    footer {
+        background-color: rgba(40, 108, 185, 0.331);
+        color: rgb(221, 200, 66);
+        font-size: 2em;
+    }
