@@ -1,0 +1,53 @@
+body { 
+    background-color: pink;
+}
+
+    header, h3 {
+        font-size: 4em;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h1, div {
+        font-size: 1.5em;
+        width: 600px;
+        margin: auto;
+    }
+
+    a {
+        display: block;
+        width: 600px;
+        font-size: 1.3em;
+        text-align: center;
+        margin: auto;
+    }
+
+    h2 {
+        width: 250px;
+        margin: auto;
+    }
+
+    img { 
+        width: 250px;
+    }
+
+    .first { 
+        color: white;
+        margin: auto;
+    }
+
+    h3 {
+        width: 600px;
+        text-align: center;
+        margin: auto;
+    }
+
+    footer {
+        width: 320px;
+        text-align: center;
+        margin: auto;
+    }
+
