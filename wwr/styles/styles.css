@@ -2,6 +2,10 @@ body {
     background-color: rgb(74, 43, 82);
 }
 
+    #content {
+        max-width: 1600px;
+    }
+
     #background {
         height: 725px;
         background-color: burlywood;
