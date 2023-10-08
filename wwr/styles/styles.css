@@ -19,7 +19,7 @@ body {
         background-color: rgba(213, 219, 45, 0.628);
         height: 40px;
         font-size: 1.5em;
-        text-decoration: underline;
+        text-decoration: none;
         text-decoration: rgb(237, 63, 6);
     }
 
@@ -66,5 +66,9 @@ body {
         background-color: rgba(40, 108, 185, 0.331);
         color: rgb(221, 200, 66);
         font-size: 2em;
-        text-decoration: underline;
     }
+
+    .join, #map, .book, .nonedec {
+        text-decoration: none;
+    }
+
