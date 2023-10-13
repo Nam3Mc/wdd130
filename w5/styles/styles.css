@@ -1,0 +1,39 @@
+body {
+    width: 1200px;
+}
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+    h1, h2 {
+        text-align: right;
+    }
+
+    .bubles {
+        background-image: url(images/mountains..jpg);
+        padding: 120px
+    }
+
+    .solid {
+        background-color: rgb(189, 188, 190);
+        padding: 80px;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    img {
+        background-color: beige;
+        margin: 40px;
+        padding: 5px;
+
+    }
+
+    .icon { 
+        width:  160px;
+    }
