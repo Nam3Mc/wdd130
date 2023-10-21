@@ -154,8 +154,8 @@
 /* Activity 6 styles */ 
 .content6 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
   /* This is the parent of the activity 6 boxes. */
 }
 .red6 {
