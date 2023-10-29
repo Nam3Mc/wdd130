@@ -180,7 +180,7 @@ body {
 
     .home-grid {
         display: grid;
-        grid-template-columns: (10, 1fr) ;
+        grid-template-columns: repeat(10, 1fr) ;
     }
 
     .card-img, .mountains {
@@ -190,21 +190,16 @@ body {
     .river-card {
         grid-column: 2/4;
         grid-row: 2/3;
-        margin-right: 50px;
-        margin-left: 50px;
     }
 
     .camping-card {
         grid-column: 5/7;
         grid-row: 2/3;
-        margin-left: 150px;
     }
 
     .rapids-card {
         grid-column: 8/10;
         grid-row: 2/3;
-        margin-right: 50px;
-        margin-left: 50px;
     }
 
     .card-img:hover {
