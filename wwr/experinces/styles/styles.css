@@ -1,0 +1,125 @@
+body {
+    background-color: salmon;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(4, 300px);
+        padding: 15px;
+        margin: 10pxs;
+        border: solid burlywood;
+        align-items: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    nav { 
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    #nav-pict {
+        width: 100%;
+        padding: 15px;
+        margin: 10px;
+        background-color: beige;
+    }
+
+    #headline section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px, 100px;
+        text-align: center;
+    }
+    
+    #text h1 {
+        width: 300px;
+        height: 50px;
+        border: 5px solid chocolate;
+        grid-column: 2/3;
+        justify-self: center;
+    }
+
+    #text h2 {
+        width: 600px;
+        height: 50px;
+        border: 5px solid chocolate;
+        grid-column: 2/3;
+        justify-self: center;
+        }
+
+    .pict {
+        background-color: beige;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        border: 10px solid chocolate;
+    }
+
+    .text {
+        width: 600px;
+        height: 150px;
+        border: 10px solid chocolate;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(8, 150px);
+        grid-template-rows: repeat(9, 130px);
+    }
+
+    main #first{
+        grid-column: 6/9;
+        grid-row: 1/4;
+        align-self: center;
+        justify-self: center;
+    }
+
+    main #second {
+        grid-column: 1/4;
+        grid-row: 4/7;
+        align-self: center;
+        justify-self: center;
+    }
+
+    main #third {
+        grid-column: 6/9;
+        grid-row: 7/10;
+        align-self: center;
+        justify-self: center;
+    }
+
+    main #text1 {
+        grid-column: 3/7;
+        grid-row: 2/3;
+        align-self: center;
+    }
+
+    main #text2 {
+        grid-column: 3/4;
+        grid-row: 5/6;
+        align-self: center;
+    }
+
+    main #text3 {
+        grid-column: 3/7;
+        grid-row: 8/9;
+        align-self: center;
+    }
+
+    footer {
+        background-color: rgba(40, 108, 185, 0.331);
+        color: rgb(221, 200, 66);
+        padding: 25px 50px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
