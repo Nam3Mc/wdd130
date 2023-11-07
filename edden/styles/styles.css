@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Caveat:wght@500&family=Cinzel:wght@500&family=Croissant+One&family=Indie+Flower&family=Monoton&family=Permanent+Marker&family=Shadows+Into+Light&family=Skranji&display=swap');
+
+body {
+    background-color: #1be7ff;
+    max-width: 1200px;
+}
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+    }
+
+    #logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    header section {
+        margin-top: -100px;
+    }
+
+    #barre, #barre2 {
+        width: 35%;
+        height: 120px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(8, 150px);
+        grid-template-rows: repeat(6, 200px);
+    }
+
+    #first, #second, #third, #forth {
+        width: 250px;
+        height: 250px;
+    }
+
+    main #first {
+        grid-column: 2/4;
+    }
+
+    
+
+
+
+

@@ -11,13 +11,12 @@ body {
         margin: 10pxs;
         border: solid burlywood;
         align-items: center;
-        align-items: center;
-        z-index: 1;
     }
 
     nav { 
         display: flex;
         justify-content: space-around;
+
     }
 
     .logo {
