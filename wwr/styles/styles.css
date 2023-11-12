@@ -274,7 +274,7 @@ body {
         grid-column: 2/3;
         justify-self: center;
         color: rgb(67, 143, 72);
-        font-family: Caveat;
+        font-family: 'Caveat';
         font-size: 2em;
 
     }
@@ -284,7 +284,7 @@ body {
         height: 180px;
         grid-column: 2/3;
         justify-self: center;
-        font-family: Shadows Into Light;
+        font-family: 'Shadows Into Light';
         color: rgb(141, 226, 43);
         }
 
@@ -337,7 +337,7 @@ body {
         align-self: center;
         background-color: rgba(222, 33, 200, 0.621);
         font-size: 0.9em;
-        font-family: Autour One;
+        font-family: 'Autour One';
         color: rgb(40, 183, 50);
     }
 
@@ -347,7 +347,7 @@ body {
         align-self: center;
         background-color: rgba(222, 33, 200, 0.621);
         font-size: 0.9em;
-        font-family: Autour One;
+        font-family: 'Autour One';
         color: rgb(40, 183, 50);
     }
 
@@ -357,6 +357,6 @@ body {
         align-self: center;
         background-color: rgba(222, 33, 200, 0.621);
         font-size: 0.9em;
-        font-family: Autour One;
+        font-family: 'Autour One';
         color: rgb(40, 183, 50);
         }
