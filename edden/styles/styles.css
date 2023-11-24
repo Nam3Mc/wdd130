@@ -2,10 +2,69 @@
 
 body {
     background-color: #1be7ff;
-    max-width: 1200px;
+    max-width: 600px;
+    font-family: 'Autour One', 'Caveat', 'Shadows Into Light', 'Skranji', 'Croissant One';
 }
 
-    header {
-        display: grid;
-        grid-template-columns: repeat(3, 400px);
+    header{
+        background-color: rgba(255, 255, 0, 0.494);
     }
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 600px;
+        justify-items: center;
+        
+    }
+
+    nav a {
+        z-index: 1;
+        margin: auto;
+        transition: transform .5s;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px; 
+        z-index: 1;  
+        }
+
+    #barre, #barre2 {
+        width: 250px;
+        margin-top: -100px;
+    }
+
+    #barre2 {
+        grid-column: 4/5;
+    }
+
+    #barrer {
+        display: grid;
+        grid-template-columns: 1fr 100px 1fr;
+    }
+
+    #down {
+        margin-bottom: 50px;
+        height: 100px;
+        z-index: -1;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+
+    nav a:nth-of-type(1), nav a:nth-of-type(3) {
+        color: #1be7ff;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #afeb09;  
+        background-color: #afeb098e;
+    }
+
+    footer a {
+        background-color: #afeb09;
+        box-shadow: 5px 5px 10px #afeb09;
+    }
+
