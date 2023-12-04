@@ -129,3 +129,97 @@ body {
         color: #F55192;
         margin-top: 30px;
     }
+
+    /* child page  */
+
+    #text h1 {
+        width: 200px;
+        height: 50px;
+        color: rgb(67, 143, 72);
+        font-family: 'Caveat';
+        font-size: 2em;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+        box-shadow: 5px 5px 10px #FF2525;
+        background-color: #afeb099c;
+    }
+        
+    #text h2 {
+        font-family: 'Caveat';
+        width: 400px;
+        height: 50px;
+        color: rgb(67, 143, 72);
+        margin: auto;
+        text-align: center;
+        box-shadow: 5px 5px 10px #FF2525;
+        background-color: #afeb099c;
+        font-size: 2.2em;
+        }
+
+    .pict {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        background-color: rgb(18, 219, 237);
+        border: 10px solid #ff2525d7;
+    }
+    .text {
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+        border-radius: 25px;
+        color: #FF2525;
+        font-size: 1.2em;
+        background-color: #49f72ea8;
+        font-family: 'Autour One';
+    }
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(8, 80px);
+        grid-template-rows: repeat(9, 100px);
+        justify-content: center;
+        margin-top: 50px;
+    }
+    main #first{
+        grid-column: 7/10;
+        grid-row: 1/4;
+        align-self: center;
+        justify-self: center;
+    }
+    main #second {
+        grid-column: 1/4;
+        grid-row: 4/7;
+        align-self: center;
+        justify-self: center;
+    }
+    main #third {
+        grid-column: 7/10;
+        grid-row: 7/10;
+        align-self: center;
+        justify-self: center;
+    }
+    main #text1 {
+        grid-column: 2/8;
+        grid-row: 2/3;
+        align-self: center;
+        font-size: 0.9em;
+        font-family: 'Autour One';
+        border-radius: 25px;
+    }
+    main #text2 {
+        grid-column: 3/9;
+        grid-row: 5/6;
+        align-self: center;
+        font-size: 0.9em;
+        font-family: 'Autour One';
+        border-radius: 25px;
+    }
+    main #text3 {
+        grid-column: 2/8;
+        grid-row: 8/9;
+        align-self: center;
+        font-size: 0.9em;
+        font-family: 'Autour One';
+        border-radius: 25px;
+        }
