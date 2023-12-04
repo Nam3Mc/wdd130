@@ -4,6 +4,7 @@ body {
     background-color: #1be7ff;
     max-width: 800px;
     font-family: 'Autour One', 'Caveat', 'Shadows Into Light', 'Skranji', 'Croissant One';
+    margin: 0 auto;
 }
 
     header{
