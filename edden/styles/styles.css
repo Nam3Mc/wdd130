@@ -240,12 +240,12 @@ body {
     #three h1 {
         height: 80px;
         width: 320px;
-        font-size: 0.8em;
+        font-size: 0.7em;
         border-radius: 25px 25px;
         box-shadow: 25px 25px 70px 20px #FF2525;
         background-color: #afeb09;
         text-align: center;
-        font-family: Shadows Into Light;
+        font-family: 'Croissant One';
         color: #FF2525;
     }
 
